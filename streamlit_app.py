@@ -10,7 +10,7 @@ import os
 import threading
 import queue
 from PIL import Image
-
+st.set_option("deprecation.showfileUploaderEncoding", False)
 # Configure Streamlit page
 st.set_page_config(
     page_title="Real-time Shoplifting Detection",
